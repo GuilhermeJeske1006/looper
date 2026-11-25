@@ -1,0 +1,3 @@
+/* Localized Info.plist strings */
+"CFBundleDisplayName" = "Jeske Looper";
+"NSMicrophoneUsageDescription" = "O Jeske Looper grava o áudio que chega pela entrada escolhida (por exemplo, o Yamaha CK61 via USB) para criar seus loops.";

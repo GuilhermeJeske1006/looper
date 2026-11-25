@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Debug LooperChecks",
+            "target": "LooperChecks",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug LooperChecks"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Release LooperChecks",
+            "target": "LooperChecks",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release LooperChecks"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Debug JeskeLooper",
+            "target": "JeskeLooper",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug JeskeLooper"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:looper}",
+            "name": "Release JeskeLooper",
+            "target": "JeskeLooper",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release JeskeLooper"
+        }
+    ]
+}
